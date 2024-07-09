@@ -1,0 +1,1027 @@
+/*
+// **********************************************************************
+// Converted with SF22SFZ Converter v1.929
+// Copyright Sep 12 2019 , Plogue Art et Technologie, Inc
+// **********************************************************************
+// Conversion Date: Sun Sep 19 01:21:24 2021
+// **********************************************************************
+// Parent file    : /Users/jaxjovian/Downloads/New folder (7)/FNF Boyfriend.sf2
+// Soundfont      : 2.1
+// Internal Name  : FNF Boyfriend
+// Optimised for  : EMU8000
+// Intendend for  : Friday Night Funkin'
+// Editor Used    : Polyphone
+// Sound Engineer : MintBreath
+// Comments       : A soundfont for Boyfriend because I was too lazy to use actual .wav files.
+Discord: MintBreath#9733
+Twitter: @BreathOfMint
+// Copyright      : Funkin' Crew
+*/
+
+<control>
+ hint_load_method=1
+ set_cc1=0     //Power-on Default Values: Modulation
+ set_cc11=127  //Power-on Default Values: Expression
+ set_cc64=0    //Power-on Default Values: Sustain Pedal
+
+<global>
+ sample=sf2_smpl.wav
+ //8.4.2 MIDI Note-On Velocity to Filter Cutoff
+ //8.4.8 MIDI Continuous Controller 91 to Reverb Effects Send
+ //8.4.9 MIDI Continuous Controller 93 to Chorus Effects Send
+ //8.4.10 MIDI Pitch Wheel to Initial Pitch Controlled by MIDI Pitch Wheel Sensitivity
+ lokey=0 hikey=127
+ lfo06_wave=0
+ lfo06_pitch=0 lfo06_pitch_oncc129=50 lfo06_pitch_oncc1=50
+ lfo06_freq=8.176
+
+ amplitude_oncc11=100 amplitude_curvecc11=7
+
+
+<master>
+ lokey=0 hikey=127
+<group>
+<region>
+ lokey=15 hikey=48
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=48 //overridingRootKey
+ region_label=0L
+ tune=0 offset=0 end=57276
+ loop_start=29733 loop_end=57267
+<region>
+ lokey=15 hikey=48
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=48 //overridingRootKey
+ region_label=0R
+ tune=0 offset=57322 end=114598
+ loop_start=87055 loop_end=114589
+<region>
+ key=49
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=49 //overridingRootKey
+ region_label=1L
+ tune=0 offset=114644 end=162477
+ loop_start=143082 loop_end=162468
+<region>
+ key=49
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=49 //overridingRootKey
+ region_label=1R
+ tune=0 offset=162523 end=210356
+ loop_start=190961 loop_end=210347
+<region>
+ key=50
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=50 //overridingRootKey
+ region_label=2L
+ tune=0 offset=210402 end=264346
+ loop_start=245387 loop_end=264337
+<region>
+ key=50
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=50 //overridingRootKey
+ region_label=2R
+ tune=0 offset=264392 end=318336
+ loop_start=299377 loop_end=318327
+<region>
+ key=51
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=51 //overridingRootKey
+ region_label=3L
+ tune=0 offset=318382 end=379339
+ loop_start=351258 loop_end=379330
+<region>
+ key=51
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=51 //overridingRootKey
+ region_label=3R
+ tune=0 offset=379385 end=440342
+ loop_start=412261 loop_end=440333
+<region>
+ key=52
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=52 //overridingRootKey
+ region_label=4L
+ tune=0 offset=440388 end=478985
+ loop_start=458591 loop_end=478976
+<region>
+ key=52
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=52 //overridingRootKey
+ region_label=4R
+ tune=0 offset=479031 end=517628
+ loop_start=497234 loop_end=517619
+<region>
+ key=53
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=53 //overridingRootKey
+ region_label=5L
+ tune=0 offset=517674 end=556366
+ loop_start=545636 loop_end=556357
+<region>
+ key=53
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=53 //overridingRootKey
+ region_label=5R
+ tune=0 offset=556412 end=595104
+ loop_start=584374 loop_end=595095
+<region>
+ key=54
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=54 //overridingRootKey
+ region_label=6L
+ tune=0 offset=595150 end=658202
+ loop_start=626789 loop_end=658193
+<region>
+ key=54
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=54 //overridingRootKey
+ region_label=6R
+ tune=0 offset=658248 end=721300
+ loop_start=689887 loop_end=721291
+<region>
+ key=55
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=55 //overridingRootKey
+ region_label=7L
+ tune=0 offset=721346 end=778857
+ loop_start=739173 loop_end=778848
+<region>
+ key=55
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=55 //overridingRootKey
+ region_label=7R
+ tune=0 offset=778903 end=836414
+ loop_start=796730 loop_end=836405
+<region>
+ key=56
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=56 //overridingRootKey
+ region_label=8L
+ tune=0 offset=836460 end=885320
+ loop_start=859175 loop_end=885311
+<region>
+ key=56
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=56 //overridingRootKey
+ region_label=8R
+ tune=0 offset=885366 end=934226
+ loop_start=908081 loop_end=934217
+<region>
+ key=57
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=57 //overridingRootKey
+ region_label=9L
+ tune=0 offset=934272 end=982433
+ loop_start=964093 loop_end=982424
+<region>
+ key=57
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=57 //overridingRootKey
+ region_label=9R
+ tune=0 offset=982479 end=1030640
+ loop_start=1012300 loop_end=1030631
+<region>
+ key=58
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=58 //overridingRootKey
+ region_label=10L
+ tune=0 offset=1030686 end=1085521
+ loop_start=1057093 loop_end=1085512
+<region>
+ key=58
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=58 //overridingRootKey
+ region_label=10R
+ tune=0 offset=1085567 end=1140402
+ loop_start=1111974 loop_end=1140393
+<region>
+ key=59
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=59 //overridingRootKey
+ region_label=11L
+ tune=0 offset=1140448 end=1186865
+ loop_start=1168766 loop_end=1186856
+<region>
+ key=59
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=59 //overridingRootKey
+ region_label=11R
+ tune=0 offset=1186911 end=1233328
+ loop_start=1215229 loop_end=1233319
+<region>
+ key=60
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=60 //overridingRootKey
+ region_label=12L
+ tune=0 offset=1233374 end=1276885
+ loop_start=1257238 loop_end=1276876
+<region>
+ key=60
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=60 //overridingRootKey
+ region_label=12R
+ tune=0 offset=1276931 end=1320442
+ loop_start=1300795 loop_end=1320433
+<region>
+ key=61
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=61 //overridingRootKey
+ region_label=13L
+ tune=0 offset=1320488 end=1375683
+ loop_start=1342272 loop_end=1375674
+<region>
+ key=61
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=61 //overridingRootKey
+ region_label=13R
+ tune=0 offset=1375729 end=1430924
+ loop_start=1397513 loop_end=1430915
+<region>
+ key=62
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=62 //overridingRootKey
+ region_label=14L
+ tune=0 offset=1430970 end=1479263
+ loop_start=1460625 loop_end=1479254
+<region>
+ key=62
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=62 //overridingRootKey
+ region_label=14R
+ tune=0 offset=1479309 end=1527602
+ loop_start=1508964 loop_end=1527593
+<region>
+ key=63
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=63 //overridingRootKey
+ region_label=15L
+ tune=0 offset=1527648 end=1575773
+ loop_start=1556168 loop_end=1575764
+<region>
+ key=63
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=63 //overridingRootKey
+ region_label=15R
+ tune=0 offset=1575819 end=1623944
+ loop_start=1604339 loop_end=1623935
+<region>
+ key=64
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=64 //overridingRootKey
+ region_label=16L
+ tune=0 offset=1623990 end=1664742
+ loop_start=1645361 loop_end=1664733
+<region>
+ key=64
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=64 //overridingRootKey
+ region_label=16R
+ tune=0 offset=1664788 end=1705540
+ loop_start=1686159 loop_end=1705531
+<region>
+ key=65
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=65 //overridingRootKey
+ region_label=17L
+ tune=0 offset=1705586 end=1753542
+ loop_start=1732240 loop_end=1753533
+<region>
+ key=65
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=65 //overridingRootKey
+ region_label=17R
+ tune=0 offset=1753588 end=1801544
+ loop_start=1780242 loop_end=1801535
+<region>
+ key=66
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=66 //overridingRootKey
+ region_label=18L
+ tune=0 offset=1801590 end=1850629
+ loop_start=1829204 loop_end=1850620
+<region>
+ key=66
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=66 //overridingRootKey
+ region_label=18R
+ tune=0 offset=1850675 end=1899714
+ loop_start=1878289 loop_end=1899705
+<region>
+ key=67
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=67 //overridingRootKey
+ region_label=19L
+ tune=0 offset=1899760 end=1947965
+ loop_start=1927742 loop_end=1947956
+<region>
+ key=67
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=67 //overridingRootKey
+ region_label=19R
+ tune=0 offset=1948011 end=1996216
+ loop_start=1975993 loop_end=1996207
+<region>
+ key=68
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=68 //overridingRootKey
+ region_label=20L
+ tune=0 offset=1996262 end=2041039
+ loop_start=2022297 loop_end=2041030
+<region>
+ key=68
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=68 //overridingRootKey
+ region_label=20R
+ tune=0 offset=2041085 end=2085862
+ loop_start=2067120 loop_end=2085853
+<region>
+ key=69
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=69 //overridingRootKey
+ region_label=21L
+ tune=0 offset=2085908 end=2131421
+ loop_start=2112977 loop_end=2131412
+<region>
+ key=69
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=69 //overridingRootKey
+ region_label=21R
+ tune=0 offset=2131467 end=2176980
+ loop_start=2158536 loop_end=2176971
+<region>
+ key=70
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=70 //overridingRootKey
+ region_label=22L
+ tune=0 offset=2177026 end=2228502
+ loop_start=2210363 loop_end=2228493
+<region>
+ key=70
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=70 //overridingRootKey
+ region_label=22R
+ tune=0 offset=2228548 end=2280024
+ loop_start=2261885 loop_end=2280015
+<region>
+ key=71
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=71 //overridingRootKey
+ region_label=23L
+ tune=0 offset=2280070 end=2322760
+ loop_start=2304470 loop_end=2322751
+<region>
+ key=71
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=71 //overridingRootKey
+ region_label=23R
+ tune=0 offset=2322806 end=2365496
+ loop_start=2347206 loop_end=2365487
+<region>
+ key=72
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=72 //overridingRootKey
+ region_label=24L
+ tune=0 offset=2365542 end=2410571
+ loop_start=2377508 loop_end=2410562
+<region>
+ key=72
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=72 //overridingRootKey
+ region_label=24R
+ tune=0 offset=2410617 end=2455646
+ loop_start=2422583 loop_end=2455637
+<region>
+ key=73
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=73 //overridingRootKey
+ region_label=25L
+ tune=0 offset=2455692 end=2496430
+ loop_start=2465866 loop_end=2496421
+<region>
+ key=73
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=73 //overridingRootKey
+ region_label=25R
+ tune=0 offset=2496476 end=2537214
+ loop_start=2506650 loop_end=2537205
+<region>
+ key=74
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=74 //overridingRootKey
+ region_label=26L
+ tune=0 offset=2537260 end=2581755
+ loop_start=2568079 loop_end=2581746
+<region>
+ key=74
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=74 //overridingRootKey
+ region_label=26R
+ tune=0 offset=2581801 end=2626296
+ loop_start=2612620 loop_end=2626287
+<region>
+ key=75
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=75 //overridingRootKey
+ region_label=27L
+ tune=0 offset=2626342 end=2671411
+ loop_start=2651493 loop_end=2671402
+<region>
+ key=75
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=75 //overridingRootKey
+ region_label=27R
+ tune=0 offset=2671457 end=2716526
+ loop_start=2696608 loop_end=2716517
+<region>
+ key=76
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=76 //overridingRootKey
+ region_label=28L
+ tune=0 offset=2716572 end=2753691
+ loop_start=2743709 loop_end=2753682
+<region>
+ key=76
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=76 //overridingRootKey
+ region_label=28R
+ tune=0 offset=2753737 end=2790856
+ loop_start=2780874 loop_end=2790847
+<region>
+ key=77
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=77 //overridingRootKey
+ region_label=29L
+ tune=0 offset=2790902 end=2836488
+ loop_start=2816196 loop_end=2836479
+<region>
+ key=77
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=77 //overridingRootKey
+ region_label=29R
+ tune=0 offset=2836534 end=2882120
+ loop_start=2861828 loop_end=2882111
+<region>
+ lokey=78 hikey=127
+ pan=-100
+ loop_mode=loop_continuous
+ pitch_keycenter=78 //overridingRootKey
+ region_label=30L
+ tune=0 offset=2882166 end=2931387
+ loop_start=2911979 loop_end=2931378
+<region>
+ lokey=78 hikey=127
+ pan=100
+ loop_mode=loop_continuous
+ pitch_keycenter=78 //overridingRootKey
+ region_label=30R
+ tune=0 offset=2931433 end=2980654
+ loop_start=2941976 loop_end=2980645
+<region>
+ key=9
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=9 //overridingRootKey
+ region_label=HEYL
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=2980700 end=2997186
+ loop_start=2980700 loop_end=2997184
+<region>
+ key=9
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=9 //overridingRootKey
+ region_label=HEYR
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=2997232 end=3013718
+ loop_start=2997232 loop_end=3013716
+<region>
+ key=10
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=10 //overridingRootKey
+ region_label=HEY_2L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3013764 end=3034198
+ loop_start=3013764 loop_end=3034196
+<region>
+ key=10
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=10 //overridingRootKey
+ region_label=HEY_2R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3034244 end=3054678
+ loop_start=3034244 loop_end=3054676
+<region>
+ key=11
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=11 //overridingRootKey
+ region_label=dah1L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3054724 end=3066233
+ loop_start=3054724 loop_end=3066231
+<region>
+ key=11
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=11 //overridingRootKey
+ region_label=dah1R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3066279 end=3077788
+ loop_start=3066279 loop_end=3077786
+<region>
+ key=12
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=12 //overridingRootKey
+ region_label=dah2L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3077834 end=3089177
+ loop_start=3077834 loop_end=3089175
+<region>
+ key=12
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=12 //overridingRootKey
+ region_label=dah2R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3089223 end=3100566
+ loop_start=3089223 loop_end=3100564
+<region>
+ key=13
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=13 //overridingRootKey
+ region_label=oomphL
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3100612 end=3109443
+ loop_start=3100612 loop_end=3109441
+<region>
+ key=13
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=13 //overridingRootKey
+ region_label=oomphR
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3109489 end=3118320
+ loop_start=3109489 loop_end=3118318
+<region>
+ key=14
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=14 //overridingRootKey
+ region_label=yeahL
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3525212 end=3532657
+ loop_start=3525212 loop_end=3532655
+<region>
+ key=14
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=14 //overridingRootKey
+ region_label=yeahR
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3532703 end=3540148
+ loop_start=3532703 loop_end=3540146
+<region>
+ key=2
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=2 //overridingRootKey
+ region_label=missnote1L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3715936 end=3728456
+ loop_start=3715936 loop_end=3728454
+<region>
+ key=2
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=2 //overridingRootKey
+ region_label=missnote1R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3728502 end=3741022
+ loop_start=3728502 loop_end=3741020
+<region>
+ key=3
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=3 //overridingRootKey
+ region_label=missnote2L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3478700 end=3489145
+ loop_start=3478700 loop_end=3489143
+<region>
+ key=3
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=3 //overridingRootKey
+ region_label=missnote2R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3489191 end=3499636
+ loop_start=3489191 loop_end=3499634
+<region>
+ key=4
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=4 //overridingRootKey
+ region_label=missnote3L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3499682 end=3512401
+ loop_start=3499682 loop_end=3512399
+<region>
+ key=4
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=4 //overridingRootKey
+ region_label=missnote3R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3512447 end=3525166
+ loop_start=3512447 loop_end=3525164
+<region>
+ key=8
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=8 //overridingRootKey
+ region_label=introGoR
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3694938 end=3715890
+ loop_start=3694938 loop_end=3715888
+<region>
+ key=8
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=8 //overridingRootKey
+ region_label=introGoL
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3673944 end=3694892
+ loop_start=3673944 loop_end=3694890
+<region>
+ key=5
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=5 //overridingRootKey
+ region_label=intro3R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3652014 end=3673898
+ loop_start=3652014 loop_end=3673896
+<region>
+ key=5
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=5 //overridingRootKey
+ region_label=intro3L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3630084 end=3651968
+ loop_start=3630084 loop_end=3651966
+<region>
+ key=6
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=6 //overridingRootKey
+ region_label=intro2R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3607397 end=3630038
+ loop_start=3607397 loop_end=3630036
+<region>
+ key=6
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=6 //overridingRootKey
+ region_label=intro2L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3584726 end=3607351
+ loop_start=3584726 loop_end=3607349
+<region>
+ key=7
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=7 //overridingRootKey
+ region_label=intro1R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3562447 end=3584680
+ loop_start=3562447 loop_end=3584678
+<region>
+ key=7
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=7 //overridingRootKey
+ region_label=intro1L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3540194 end=3562401
+ loop_start=3540194 loop_end=3562399
+<region>
+ key=0
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=0 //overridingRootKey
+ region_label=fnf_loss_sfx-1L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3118366 end=3164302
+ loop_start=3118366 loop_end=3164300
+<region>
+ key=0
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=0 //overridingRootKey
+ region_label=fnf_loss_sfx-1R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3164348 end=3210284
+ loop_start=3164348 loop_end=3210282
+<region>
+ key=1
+ pan=-100
+ loop_mode=no_loop
+ pitch_keycenter=1 //overridingRootKey
+ region_label=fnf_loss_sfx-2L
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3210330 end=3344469
+ loop_start=3210330 loop_end=3344467
+<region>
+ key=1
+ pan=100
+ loop_mode=no_loop
+ pitch_keycenter=1 //overridingRootKey
+ region_label=fnf_loss_sfx-2R
+ //Sample Rate override main:48000 curr:44100
+ tune=-147 offset=3344515 end=3478654
+ loop_start=3344515 loop_end=3478652
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<curve>//7 GMCurves::ConvaveLin
+ v000=0            v001=6.20001e-05  v002=0.000248     v003=0.000558001  v004=0.000992002 
+ v005=0.00155      v006=0.002232     v007=0.00303801   v008=0.00396801   v009=0.00502201  
+ v010=0.00620001   v011=0.00750202   v012=0.00892802   v013=0.010478     v014=0.012152    
+ v015=0.01395      v016=0.015872     v017=0.017918     v018=0.020088     v019=0.022382    
+ v020=0.0248       v021=0.0273421    v022=0.0300081    v023=0.0327981    v024=0.0357121   
+ v025=0.0387501    v026=0.0419121    v027=0.0451981    v028=0.0486081    v029=0.0521421   
+ v030=0.0558001    v031=0.0595821    v032=0.0634881    v033=0.0675181    v034=0.0716721   
+ v035=0.0759502    v036=0.0803522    v037=0.0848782    v038=0.0895282    v039=0.0943022   
+ v040=0.0992002    v041=0.104222     v042=0.109368     v043=0.114638     v044=0.120032    
+ v045=0.12555      v046=0.131192     v047=0.136958     v048=0.142848     v049=0.148862    
+ v050=0.155        v051=0.161262     v052=0.167648     v053=0.174158     v054=0.180792    
+ v055=0.18755      v056=0.194432     v057=0.201438     v058=0.208568     v059=0.215822    
+ v060=0.2232       v061=0.230702     v062=0.238328     v063=0.246078     v064=0.253953    
+ v065=0.261951     v066=0.270073     v067=0.278319     v068=0.286689     v069=0.295183    
+ v070=0.303801     v071=0.312543     v072=0.321409     v073=0.330399     v074=0.339513    
+ v075=0.348751     v076=0.358113     v077=0.367599     v078=0.377209     v079=0.386943    
+ v080=0.396801     v081=0.406783     v082=0.416889     v083=0.427119     v084=0.437473    
+ v085=0.447951     v086=0.458553     v087=0.469279     v088=0.480129     v089=0.491103    
+ v090=0.502201     v091=0.513423     v092=0.524769     v093=0.536239     v094=0.547833    
+ v095=0.559551     v096=0.571393     v097=0.583359     v098=0.595449     v099=0.607663    
+ v100=0.620001     v101=0.632463     v102=0.645049     v103=0.657759     v104=0.670593    
+ v105=0.683551     v106=0.696633     v107=0.709839     v108=0.723169     v109=0.736623    
+ v110=0.750202     v111=0.763904     v112=0.77773      v113=0.79168      v114=0.805754    
+ v115=0.819952     v116=0.834274     v117=0.84872      v118=0.86329      v119=0.877984    
+ v120=0.892802     v121=0.907744     v122=0.92281      v123=0.938        v124=0.953314    
+ v125=0.968752     v126=0.984314     v127=1           
+
