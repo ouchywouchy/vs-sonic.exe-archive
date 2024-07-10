@@ -7,5 +7,5 @@ Will be archiving FLAs, FLPs, and other stuff like that.
 # CREDITS
 
 Chromatics - https://drive.google.com/drive/folders/1MzVU--MK-aE4YLz0q5WXX5jIElf04hJB
-FLPs and HTMLs - Funkipedia
+FLPs, HTMLs, Voicelines, Game Over and Song Audios - Funkipedia
 FLAs - https://archive.org/details/vs-sonic-exe-fla-files 
